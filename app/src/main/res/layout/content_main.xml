@@ -26,4 +26,53 @@
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="28dp" />
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="124dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/content_champion" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="224dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/content_title" />
+    </com.google.android.material.textfield.TextInputLayout
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="251dp"
+        android:layout_height="108dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="300dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/content_description" />
+    </com.google.android.material.textfield.TextInputLayout
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_submitButton"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="470dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
